@@ -8,7 +8,7 @@
     <meta name="description" content="appzoc">
     <meta name="keywords" content="appzoc">
     <meta name="author" content="appzoc">
-    <title>Appzoc</title>
+    <title>Appzocs</title>
 </head>
 
 <body>
