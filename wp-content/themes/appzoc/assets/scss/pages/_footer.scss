@@ -1,0 +1,115 @@
+/* Footer Section */
+.section-gp {
+    padding-top: 6.3rem;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+
+    .social-media {
+        a {
+            color: #000;
+            font-size: 24px;
+            transition: .3s ease;
+
+            &:nth-child(2n) {
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+
+            &:hover {
+                color: #e24425;
+            }
+        }
+    }
+
+    .brandings {
+        @media(max-width:767px) {
+            margin: 0px auto;
+            text-align: center;
+        }
+    }
+
+    .widget-container {
+        .title {
+            color: #000;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 13px;
+        }
+
+        ul,
+        ol {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                a {
+                    line-height: 32px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #4C4C4C;
+                    transition: .3s ease-in-out;
+
+                    &:hover {
+                        color: #e24425;
+                    }
+
+                    @media(max-width:768px) {
+                        line-height: 31.5px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .list-flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .list-flex-item {
+                width: 50%;
+
+                @media(max-width:768px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .foot-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-padd {
+        padding-bottom: 40px;
+    }
+}
+
+/* Footer Section END */
+
+/* Copy Right */
+.copy-right {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 20px 15px;
+    font-family: "poppins", sans-serif;
+
+    p {
+        margin: 0px;
+        font-size: 14px;
+        color: #4C4C4C;
+    }
+
+    a {
+        color: #4C4C4C;
+    }
+
+    @media(max-width:767px) {
+        padding-bottom: 80px;
+    }
+}
+
+/* Copy Right END */

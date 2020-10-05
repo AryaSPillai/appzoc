@@ -1,0 +1,109 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.no-scroll {
+    overflow: hidden !important;
+}
+
+main {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button,
+.btn {
+    &:focus {
+        box-shadow: none !important;
+        outline: 0 !important;
+    }
+}
+
+.relative {
+    position: relative !important;
+}
+
+.block {
+    display: block !important;
+}
+
+section {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Colors */
+.color-primary {
+    color: #E24425 !important;
+}
+
+.color-primary-light {
+    color: #F6861F !important;
+}
+
+/* Custom Margin */
+.mb-15 {
+    margin-bottom: 15px !important;
+}
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+/* Porfolio Themes */
+.theme-purple {
+    background-color: #441266 !important;
+    color: #fff;
+
+    .btn-case-study {
+        color: #fff;
+    }
+}
+
+.theme-teal {
+    background-color: #B6D8D9 !important;
+    color: #000;
+
+    .btn-case-study {
+        color: #000;
+    }
+}
+
+.split-text {
+    display: block !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.transparent {
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.box.active {
+    background-color: red;
+}
+
+.z-index-over {
+    z-index: 10;
+}

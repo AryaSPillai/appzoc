@@ -1,0 +1,358 @@
+.page-random-dark {
+    position: relative;
+
+    .sub-banner-cover {
+        color: #fff;
+
+        .fixed-bglayer-flip {
+            background-color: #1E1E1E;
+        }
+    }
+
+    /* fixed Banner */
+    .fixed-bglayer-flip {
+        position: absolute;
+        top: 0;
+        background-color: #0A1133;
+        left: 0;
+        right: 0;
+        min-height: 500px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 7.125rem;
+            height: 7.125rem;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            top: -3.563rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .circle-large {
+            width: 18.938rem;
+            height: 18.938rem;
+            border: 60px solid rgba(255, 255, 255, 0.2);
+            border-radius: 100%;
+            position: absolute;
+            left: 60%;
+            bottom: -8rem;
+            top: auto;
+        }
+    }
+
+    /* fixed Banner  END */
+
+
+    /* fixed App Screen */
+    .fixed-appscreen-flip {
+        position: absolute;
+        bottom: 0;
+        background-color: #1E1E1E;
+        left: 0;
+        right: 0;
+        min-height: 420px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 7.125rem;
+            height: 7.125rem;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            position: absolute;
+            top: -50%;
+            right: 10%;
+        }
+
+        .circle-large {
+            width: 29.313rem;
+            height: 29.313rem;
+            border: 100px solid rgba(255, 255, 255, 0.1);
+            border-radius: 100%;
+            position: absolute;
+            left: 25%;
+            top: 6.5rem;
+        }
+    }
+
+    /* fixed App Screen  END */
+}
+
+.page-pale-blue {
+    position: relative;
+
+    .sub-banner-cover {
+        color: #000;
+
+        .fixed-bglayer-flip {
+            background-color: #edf8fc;
+        }
+    }
+
+    /* fixed Banner */
+    .fixed-bglayer-flip {
+        position: absolute;
+        top: 0;
+        background-color: #0A1133;
+        left: 0;
+        right: 0;
+        min-height: 500px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 7.125rem;
+            height: 7.125rem;
+            border-radius: 100%;
+            background-color: rgba(61, 183, 229, 0.2);
+            position: absolute;
+            top: 45%;
+            right: -3.5625rem;
+            left: auto;
+        }
+
+        .circle-large {
+            width: 18.938rem;
+            height: 18.938rem;
+            border: 70px solid rgba(61, 183, 229, 0.2);
+            border-radius: 100%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -9.469rem;
+        }
+    }
+
+    /* fixed Banner  END */
+
+
+    /* fixed App Screen */
+    .fixed-appscreen-flip {
+        position: absolute;
+        bottom: 0;
+        background-color: #edf8fc;
+        left: 0;
+        right: 0;
+        min-height: 420px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 7.125rem;
+            height: 7.125rem;
+            border-radius: 100%;
+            background-color: rgba(61, 183, 229, 0.2);
+            position: absolute;
+            bottom: 5rem;
+            /* top: auto; */
+            left: -3.5625rem;
+        }
+
+        .circle-large {
+            width: 27.313rem;
+            height: 27.313rem;
+            border: 87px solid rgba(61, 183, 229, 0.2);
+            border-radius: 100%;
+            position: absolute;
+            right: 16%;
+            left: auto;
+        }
+    }
+
+    /* fixed App Screen  END */
+
+    .block-preview-appscreen {
+        padding: 4rem 0rem 4rem;
+
+        @media(min-width:992px) {
+            padding: 4rem 0rem 10rem;
+        }
+    }
+}
+
+.page-dark-purple {
+
+    .sub-banner-cover {
+        color: #fff;
+
+        .fixed-bglayer-flip {
+            background-color: #440177;
+        }
+    }
+
+    /* fixed Banner */
+    .fixed-bglayer-flip {
+        position: absolute;
+        top: 0;
+        background-color: #0A1133;
+        left: 0;
+        right: 0;
+        min-height: 500px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 7.125rem;
+            height: 7.125rem;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            right: -3.563rem;
+            left: auto;
+            top: 30%;
+        }
+
+        .circle-large {
+            width: 23.313rem;
+            height: 23.313rem;
+            border: 90px solid rgba(255, 255, 255, 0.2);
+            border-radius: 100%;
+            position: absolute;
+            left: -9.125rem;
+            bottom: -5.625rem;
+            top: auto;
+            transform: initial;
+        }
+    }
+
+    /* fixed Banner  END */
+
+    /* fixed App Screen */
+    .fixed-appscreen-flip {
+        position: absolute;
+        bottom: 0;
+        background-color: #440177;
+        left: 0;
+        right: 0;
+        min-height: 420px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 8.438rem;
+            height: 8.438rem;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            bottom: 5rem;
+            top: -3.75rem;
+            left: 3.438rem;
+        }
+
+        .circle-large {
+            width: 29.313rem;
+            height: 29.313rem;
+            border: 100px solid rgba(255, 255, 255, 0.2);
+            border-radius: 100%;
+            position: absolute;
+            right: -13.438rem;
+            bottom: -14.688rem;
+            left: auto;
+            top: auto;
+        }
+    }
+
+    /* fixed App Screen  END */
+
+
+}
+
+
+.page-random-drk {
+    position: relative;
+
+    .sub-banner-cover {
+        color: #fff;
+
+        .fixed-bglayer-flip {
+            background-color: #151515;
+        }
+    }
+
+    /* fixed Banner */
+    .fixed-bglayer-flip {
+        position: absolute;
+        top: 0;
+        background-color: #0A1133;
+        left: 0;
+        right: 0;
+        min-height: 500px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 7.125rem;
+            height: 7.125rem;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.12);
+            position: absolute;
+            right: -3.563rem;
+            left: auto;
+            top: 30%;
+        }
+
+        .circle-large {
+            width: 23.313rem;
+            height: 23.313rem;
+            border: 90px solid rgba(255, 255, 255, 0.12);
+            border-radius: 100%;
+            position: absolute;
+            left: -9.125rem;
+            bottom: -5.625rem;
+            top: auto;
+            -webkit-transform: initial;
+            -ms-transform: initial;
+            transform: initial;
+        }
+    }
+
+    /* fixed Banner  END */
+
+
+    /* fixed App Screen */
+    .fixed-appscreen-flip {
+        position: absolute;
+        bottom: 0;
+        background-color: #151515;
+        left: 0;
+        right: 0;
+        min-height: 420px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+
+        .small-circle {
+            width: 114px;
+            height: 114px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 100%;
+            position: absolute;
+            right: 18%;
+            top: -57px;
+        }
+
+        .circle-large {
+            width: 29.313rem;
+            height: 29.313rem;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 100%;
+            position: absolute;
+            left: -13.438rem;
+            bottom: -14.688rem;
+            right: auto;
+            top: auto;
+        }
+    }
+
+    /* fixed App Screen  END */
+}
